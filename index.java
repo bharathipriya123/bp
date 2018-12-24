@@ -20,10 +20,12 @@ public class index
             b[i]=a[i];
             }
             else
-            Sytem.out.print(-1);
+            System.out.print(-1);
             }
-            Arrays.sort(b[i]);
+            Arrays.sort(b);
+            for(int j=0;j<=n;j++){
             System.out.printf("%d\t",b[i]);
+            }
             }
             }
             
